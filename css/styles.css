@@ -84,11 +84,16 @@ button {
 
 .page-navigation {
   display: flex;
+  align-items: center;
 }
 
 .menu-header {
   display: flex;
   column-gap: 40px;
+}
+
+.contacts-item {
+  column-gap: 0px;
 }
 
 .logo {
@@ -100,7 +105,9 @@ button {
   color: #4d5ae5;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-right: 76px;
 }
+
 .logo-header-span {
   color: #2e2f42;
   margin-right: 76px;
@@ -116,6 +123,11 @@ button {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  column-gap: 40px;
+}
+
+.number {
+  column-gap: 0px;
 }
 
 .menu-link:hover,
@@ -162,6 +174,7 @@ button {
   width: 100%;
   height: 600px;
   padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -173,6 +186,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -190,6 +204,8 @@ button {
   display: block;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  border: none;
 }
 
 .hero-btn:hover,
@@ -223,6 +239,10 @@ button {
   column-gap: 24px;
 }
 
+.technologies {
+  column-gap: 0px;
+}
+
 .advantages-item {
   width: calc(100%-3 * 24px) / 4;
 }
@@ -237,8 +257,12 @@ button {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
   width: calc(100%-4 * 24) / 4;
+  column-gap: 24px;
+}
+
+.daniel {
+  column-gap: 0px;
 }
 
 .info-container {
@@ -258,7 +282,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .info-participant {
@@ -276,13 +300,15 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .participant-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* ========== /TEAM STYLES ========== */
@@ -292,28 +318,31 @@ button {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
   row-gap: 48px;
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  column-gap: 24px;
+}
+
+.courses-item {
+  column-gap: 0px;
 }
 
 .portfolio-item {
   display: block;
   border: 1px solid #e7e9fc;
-  width: calc(100%-4 * 24) / 6;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-container {
-  padding-bottom: 32px;
-  padding-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   align-self: stretch;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
@@ -323,7 +352,7 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .direction-title {
@@ -332,12 +361,15 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .direction-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 /* ========== /PORTFOLIO STYLES ========== */
 
@@ -349,11 +381,13 @@ button {
   width: 100%;
   height: 312px;
   display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer {
-  display: flex;
-  padding-top: 101.5px;
+  margin-bottom: 16px;
+  display: inline-block;
   width: 1158px;
 }
 
