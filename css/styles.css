@@ -150,6 +150,14 @@ button {
   padding-bottom: 24px;
 }
 
+.menu-adress-item {
+  margin-right: 40px;
+}
+
+.menu-adress-item:last-child {
+  margin-right: 0;
+}
+
 .contacts {
   color: inherit;
 }
